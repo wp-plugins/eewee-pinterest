@@ -1,5 +1,5 @@
 ﻿=== eewee pinterest ===
-Contributors: Michael DUMONTET, eewee.fr
+Contributors: eewee
 Tags: widget, pinterest, widget, shortcode, position, eewee, hook, header, footer
 Requires at least: 3.0
 Tested up to: 3.1
