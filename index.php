@@ -18,6 +18,9 @@ define( 'EEWEE_PINTEREST_NAME', 'eeweePinterest' );
 define( 'EEWEE_PINTEREST_PLUGIN_DIR', WP_PLUGIN_DIR . '/' . dirname( plugin_basename( __FILE__ ) ) );
 define( 'EEWEE_PINTEREST_PLUGIN_URL', WP_PLUGIN_URL . '/' . dirname( plugin_basename( __FILE__ ) ) );
 
+// Gestion lang (dossier lang dans le plugin, contenant les .mo)
+load_plugin_textdomain("eewee-pinterest", false, dirname( plugin_basename( __FILE__ ) ) . '/lang');
+
 /**
  * Add CSS
  * @since 1.0.0
