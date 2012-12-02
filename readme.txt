@@ -48,5 +48,8 @@ header, footer
 
 == Changelog ==
 
-= 0.1 =
+= 1.1 =
+* correction de conflicts entrepre différents plug-in eewee 
+
+= 1.0 =
 * launch version of the plugin.

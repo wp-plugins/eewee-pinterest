@@ -25,8 +25,8 @@ if( !class_exists(EeweePinterest)){
 			// main menu
 			add_menu_page( "Eewee Pinterest", "Eewee Pinterest", "manage_options", "idEeweePinterest", array($this, menu), plugins_url("eewee_pinterest/img/icon.png") );
 			// submenu (into main menu)
-			add_submenu_page( "idEeweePinterest", "Widget", "Widget", "manage_options", "idSousMenu1", array($this, sousMenu1));
-			add_submenu_page( "idEeweePinterest", "Manuel", "Manuel", "manage_options", "idSousMenu2", array($this, sousMenu2));
+			add_submenu_page( "idEeweePinterest", "Widget", "Widget", "manage_options", "idSousMenuPinterest1", array($this, sousMenu1));
+			add_submenu_page( "idEeweePinterest", "Manuel", "Manuel", "manage_options", "idSousMenuPinterest2", array($this, sousMenu2));
 			
 			// menu B
 //			add_object_page( "monMenuB", "monMenuB", "manage_options", "idMonMenuB", "fct_b" );
