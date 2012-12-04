@@ -48,6 +48,9 @@ header, footer
 
 == Changelog ==
 
+= 1.2 =
+* add shortcode : follow button pinterest  
+
 = 1.1 =
 * correction de conflicts entrepre différents plug-in eewee 
 

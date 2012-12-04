@@ -59,6 +59,15 @@
           <p>w : <?php _e('Bloc width', 'eeweepinterest'); ?></p>
           <p>h : <?php _e('Bloc height', 'eeweepinterest'); ?></p>
         </section><!-- general2 -->
+        <br />
+        
+        <section id="general3">
+          <h3><?php _e('Pinterest Shortcode', 'eeweepinterest'); ?></h3>
+          <p><pre><code>[eeweepinterestbtn url="http://pinterest.com/michaeldumontet/" name="eewee"]</code></pre></p>
+          <p>url : <?php _e('User URL', 'eeweepinterest'); ?></p>
+          <p>name : <?php _e('Full name', 'eeweepinterest'); ?></p>
+          <?php do_shortcode( '[eeweepinterestbtn url="http://pinterest.com/michaeldumontet/" name="eewee"]' ); ?>
+        </section><!-- general3 -->
         
         <br class="clear" />
       </div><!-- options_tabs -->

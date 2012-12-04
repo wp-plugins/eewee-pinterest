@@ -4,7 +4,8 @@ if( !class_exists(EeweePinterest)){
 		
 		function __construct(){
 			// SHORTCODE
-			add_shortcode( 'eeweepinterest', array($this, 'eeweepinterest') );
+			add_shortcode( 'eeweepinterest',    array($this, 'eeweepinterest') );
+			add_shortcode( 'eeweepinterestbtn', array($this, 'eeweepinterestbtn') );
 
 			$this->render();
 		}//fin constructeur
@@ -115,6 +116,17 @@ if( !class_exists(EeweePinterest)){
 		function eeweepinterest( $atts='' ){
 			extract( shortcode_atts(array('url'=>'', 'imgw'=>'', 'h'=>'', 'w'=>''), $atts ));
 			include(EEWEE_PINTEREST_PLUGIN_DIR.'/view/shortcode.php');
+		}//fin function
+		
+                
+                
+                /**
+		 * Shortcode 
+		 * @param unknown_type $atts
+		 */
+		function eeweepinterestbtn( $atts='' ){
+			extract( shortcode_atts(array('url'=>'', 'name'=>''), $atts ));
+			include(EEWEE_PINTEREST_PLUGIN_DIR.'/view/shortcodebtn.php');
 		}//fin function
 		
 
