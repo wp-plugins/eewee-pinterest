@@ -1,10 +1,11 @@
 ﻿=== eewee pinterest ===
 Contributors: eewee
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: widget, pinterest, widget, shortcode, position, eewee, hook, header, footer
-Requires at least: 3.0
-Tested up to: 3.1
+Requires at least: 3.1
+Tested up to: 3.5
 Stable tag: 3.1
-License: Copyright eewee.fr
 
 Use the wordpress administration to place your Pinterest widget on an area (header, footer) and / or use a shortcode to display the widget Pinterest.
 
