@@ -3,10 +3,10 @@
 <div id="framework_wrap" class="wrap">
 
 	<div id="header">
-	    <h1>Manuel d'utilisation</h1>
-	    <h2>Eewee Pinterest</h2>
+	    <h1><?php _e('Manual', PLUGIN_NOM_LANG); ?></h1>
+	    <h2><a href='http://www.eewee.fr'>eewee.fr</a></h2>
 	    <div class="version">
-	      <?php echo EEWEE_PINTEREST_VERSION; ?>
+			<?php _e('Version', PLUGIN_NOM_LANG); ?> <?php echo EEWEE_PINTEREST_VERSION; ?>
 	    </div>
 	</div>
   

@@ -13,7 +13,7 @@ License: copyright eewee
  * Define
  * @since 1.0.0
  */
-define( 'EEWEE_PINTEREST_VERSION', '1.3' );
+define( 'EEWEE_PINTEREST_VERSION', '1.3.1' );
 define( 'EEWEE_PINTEREST_NAME', 'eeweePinterest' );
 define( 'EEWEE_PINTEREST_PLUGIN_DIR', WP_PLUGIN_DIR . '/' . dirname( plugin_basename( __FILE__ ) ) );
 define( 'EEWEE_PINTEREST_PLUGIN_URL', WP_PLUGIN_URL . '/' . dirname( plugin_basename( __FILE__ ) ) );

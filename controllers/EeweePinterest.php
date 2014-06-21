@@ -39,20 +39,11 @@ if( !class_exists(EeweePinterest)){
 		}
 		
 		/**
-		 * Page : main menu
+		 * Menu
 		 */
-		function menu(){ echo "Main menu here"; }
-
-
-		/**
-		 * Page : submenu 1
-		 */
-		function sousMenu1(){ include(EEWEE_PINTEREST_PLUGIN_DIR.'/view/tableau.php'); }
-		
-		/**
-		 * Page : submenu 1
-		 */
-		function sousMenu2(){ include(EEWEE_PINTEREST_PLUGIN_DIR.'/view/manuel.php'); }
+		function menu(){		include(EEWEE_PINTEREST_PLUGIN_DIR.'/view/manuel.php');		}
+		function sousMenu1(){	include(EEWEE_PINTEREST_PLUGIN_DIR.'/view/tableau.php');	}
+		function sousMenu2(){	include(EEWEE_PINTEREST_PLUGIN_DIR.'/view/manuel.php');		}
 
 		
 		/**
@@ -83,12 +74,12 @@ if( !class_exists(EeweePinterest)){
 		
 		function renderHeader(){
 			$url			= get_option( "eewee_pinterest_val_url" );
-                        $imageWidth             = get_option( "eewee_pinterest_val_imagewidth" );
-                        $boardHeight            = get_option( "eewee_pinterest_val_boardheight" );
-                        $boardWidth             = get_option( "eewee_pinterest_val_boardwidth" );
-                        if( empty($imageWidth) ){ $imageWidth=92; }
-                        if( empty($boardHeight) ){ $boardHeight=175; }
-                        if( empty($boardWidth) ){ $boardWidth=''; }
+			$imageWidth		= get_option( "eewee_pinterest_val_imagewidth" );
+			$boardHeight	= get_option( "eewee_pinterest_val_boardheight" );
+			$boardWidth		= get_option( "eewee_pinterest_val_boardwidth" );
+			if( empty($imageWidth) ){	$imageWidth=92;		}
+			if( empty($boardHeight) ){	$boardHeight=175;	}
+			if( empty($boardWidth) ){	$boardWidth='';		}
 			$tbl['imageWidth']	= 'data-pin-scale-width="'.get_option( "eewee_pinterest_val_imagewidth" ).'"';
 			$tbl['boardHeight']	= 'data-pin-scale-height="'.get_option( "eewee_pinterest_val_boardheight" ).'"';
 			$tbl['boardWidth']	= 'data-pin-board-width="'.get_option( "eewee_pinterest_val_boardwidth" ).'"';
@@ -116,26 +107,26 @@ if( !class_exists(EeweePinterest)){
 		function eeweepinterest( $atts='' ){
 			extract( shortcode_atts(array('url'=>'', 'imgw'=>'', 'h'=>'', 'w'=>''), $atts ));
                         
-                        if( !empty($imgw) ){    $tbl['imgw']    = 'data-pin-scale-width="'.$imgw.'"';   }
-                        if( !empty($h) ){       $tbl['h']       = 'data-pin-scale-height="'.$h.'"';     }
-                        if( !empty($w) ){       $tbl['w']       = 'data-pin-board-width="'.$w.'"';      }
+			if( !empty($imgw) ){    $tbl['imgw']    = 'data-pin-scale-width="'.$imgw.'"';   }
+			if( !empty($h) ){       $tbl['h']       = 'data-pin-scale-height="'.$h.'"';     }
+			if( !empty($w) ){       $tbl['w']       = 'data-pin-board-width="'.$w.'"';      }
 
-                        return '<a '.$tbl['imgw'].' '.$tbl['h'].' '.$tbl['w'].' data-pin-do="embedBoard" href="'.$url.'"></a>';
+			return '<a '.$tbl['imgw'].' '.$tbl['h'].' '.$tbl['w'].' data-pin-do="embedBoard" href="'.$url.'"></a>';
 		}//fin function
 		
                 
                 
-                /**
+		/**
 		 * Shortcode 
 		 * @param unknown_type $atts
 		 */
 		function eeweepinterestbtn( $atts='' ){
 			extract( shortcode_atts(array('url'=>'', 'name'=>''), $atts ));
                         
-                        if( empty($url) ){    $tbl['url']    = "http://pinterest.com/michaeldumontet/";   }
-                        if( empty($name) ){   $tbl['name']   = "eewee";     }
+			if( empty($url) ){    $tbl['url']    = "http://pinterest.com/michaeldumontet/";   }
+			if( empty($name) ){   $tbl['name']   = "eewee";     }
 
-                        return '<a data-pin-do="buttonFollow" href="'.$url.'">'.$name.'</a>';
+			return '<a data-pin-do="buttonFollow" href="'.$url.'">'.$name.'</a>';
 		}//fin function
 		
 
