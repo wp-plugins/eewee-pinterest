@@ -84,7 +84,7 @@ class form_add_pinterest{
 						<?php _e('URL', 'eeweePinterest') ?> : 
 					</th>
 					<td>
-						<input type='text' name='formUrl' value='<?php form_option( "eewee_pinterest_val_url" ); ?>'>
+						<input type='text' name='formUrl' value='<?php form_option( "eewee_pinterest_val_url" ); ?>' class="regular-text">
 						<span class="description">ex: http://pinterest.com/eeweefr/</span>
 					</td>
 				</tr>
@@ -93,7 +93,7 @@ class form_add_pinterest{
 						<?php _e('Image Width', 'eeweePinterest') ?> :
 					</th>
 					<td>
-						<input type='text' name='formImageWidth' value='<?php form_option( "eewee_pinterest_val_imagewidth" ); ?>'>
+						<input type='text' name='formImageWidth' value='<?php form_option( "eewee_pinterest_val_imagewidth" ); ?>' class="regular-text">
 						<span class="description"><?php _e('Min:60. Leave blank for 92', 'eeweePinterest') ?></span>
 					</td>
 				</tr>
@@ -102,7 +102,7 @@ class form_add_pinterest{
 						<?php _e('Board Height', 'eeweePinterest') ?> :  
 					</th>
 					<td>
-						<input type='text' name='formBoardHeight' value='<?php form_option( "eewee_pinterest_val_boardheight" ); ?>'>
+						<input type='text' name='formBoardHeight' value='<?php form_option( "eewee_pinterest_val_boardheight" ); ?>' class="regular-text">
 						<span class="description"><?php _e('Min:60. Leave blank for 175', 'eeweePinterest') ?></span>
 					</td>
 				</tr>
@@ -111,7 +111,7 @@ class form_add_pinterest{
 						<?php _e('Board Width', 'eeweePinterest') ?> :
 					</th>
 					<td>
-						<input type='text' name='formBoardWidth' value='<?php form_option( "eewee_pinterest_val_boardwidth" ); ?>'>
+						<input type='text' name='formBoardWidth' value='<?php form_option( "eewee_pinterest_val_boardwidth" ); ?>' class="regular-text">
 						<span class="description"><?php _e('Min:130. Leave blank for auto', 'eeweePinterest') ?></span>
 					</td>
 				</tr>

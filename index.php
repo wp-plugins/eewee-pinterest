@@ -3,7 +3,7 @@
 Plugin Name: Eewee Pinterest
 Plugin URI: http://www.eewee.fr/
 Description: Pinterest. Display bloc pinterest on your wordpress website.
-Version: 1.3
+Version: 1.3.2
 Author: Michael DUMONTET
 Author URI: http://www.eewee.fr/wordpress/
 License: copyright eewee
@@ -13,7 +13,7 @@ License: copyright eewee
  * Define
  * @since 1.0.0
  */
-define( 'EEWEE_PINTEREST_VERSION', '1.3.1' );
+define( 'EEWEE_PINTEREST_VERSION', '1.3.2' );
 define( 'EEWEE_PINTEREST_NAME', 'eeweePinterest' );
 define( 'EEWEE_PINTEREST_PLUGIN_DIR', WP_PLUGIN_DIR . '/' . dirname( plugin_basename( __FILE__ ) ) );
 define( 'EEWEE_PINTEREST_PLUGIN_URL', WP_PLUGIN_URL . '/' . dirname( plugin_basename( __FILE__ ) ) );

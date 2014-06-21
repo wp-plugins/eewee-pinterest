@@ -48,6 +48,9 @@ header, footer
 
 == Changelog ==
 
+= 1.3.2 =
+* Translation : fr_FR
+
 = 1.3.1 =
 * Update design
 
