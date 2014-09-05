@@ -2,8 +2,8 @@
 Contributors: eewee
 Tags: widget, pinterest, widget, shortcode, position, eewee, hook, header, footer
 Requires at least: 3.0
-Tested up to: 3.1
-Stable tag: 3.1
+Tested up to: 4.0
+Stable tag: 4.0
 License: Copyright eewee.fr
 
 Use the wordpress administration to place your Pinterest widget on an area (header, footer) and / or use a shortcode to display the widget Pinterest.
@@ -47,6 +47,9 @@ header, footer
 * Use the wordpress administration to place on an area (header, footer) your Pinterest widget and / or use a shortcode
 
 == Changelog ==
+
+= 1.3.3 =
+* Compatible WP4.0 Benny
 
 = 1.3.2 =
 * Translation : fr_FR
