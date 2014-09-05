@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eewee-pinterest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-21 12:46+0100\n"
+"PO-Revision-Date: 2014-06-21 12:47+0100\n"
+"Last-Translator: Michael <trad@eewee.fr>\n"
+"Language-Team: Michael <trad@eewee.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;_c;_x;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SearchPath-0: C:\\Users\\laurence\\Desktop\\eewee_pinterest\n"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:54
+msgid "Pinterest Widget"
+msgstr "Pinterest Widget"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:60
+msgid "Edit widget"
+msgstr "Modifier widget"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:65
+msgid "Position"
+msgstr "Position"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:77
+msgid "Header"
+msgstr "Entete"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:78
+msgid "Footer"
+msgstr "Pied de page"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:84
+msgid "URL"
+msgstr "URL"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:93
+msgid "Image Width"
+msgstr "Largeur image"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:97
+msgid "Min:60. Leave blank for 92"
+msgstr "Min:60. Laisser vide pour 92"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:102
+msgid "Board Height"
+msgstr "Hauteur zone"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:106
+msgid "Min:60. Leave blank for 175"
+msgstr "Min:60. Laisser vide pour 175"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:111
+msgid "Board Width"
+msgstr "Largeur zone"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:115
+msgid "Min:130. Leave blank for auto"
+msgstr "Min:130. Laisser vide pour automatique"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/forms/addPinterest.php:121
+msgid "Save"
+msgstr "Enregistrer"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:6
+msgid "Manual"
+msgstr "Manuel"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:9
+msgid "Version"
+msgstr "Version"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:19
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:26
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:57
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:20
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:55
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:65
+msgid "Pinterest Shortcode"
+msgstr "Pinterest Shortcode"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:27
+msgid "Example pinterest url"
+msgstr "Exemple d'url pinterest"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:29
+msgid "Pinterest profil"
+msgstr "Profil Pinterest"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:36
+msgid "Pinterest table"
+msgstr "Table Pinterest"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:58
+msgid "image width"
+msgstr "Largeur image"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:59
+msgid "Bloc width"
+msgstr "Largeur zone"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:60
+msgid "Bloc height"
+msgstr "Hauteur zone"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:67
+msgid "User URL"
+msgstr "URL utilisateur"
+
+#: C:\Users\laurence\Desktop\eewee_pinterest/view/manuel.php:68
+msgid "Full name"
+msgstr "Nom complet"
+
+#~ msgid "Buy with PayPal"
+#~ msgstr "Acheter via Paypal"
